@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "beaconcalculator",
+  "version": "${version}",
+  "name": "BeaconCalculator",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/PcUser/BeaconCalculator"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/beaconcalculator/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.kinchanramen.github.beaconcalculator.client.BeaconCalculatorClient"
+    ],
+    "main": [
+      "net.kinchanramen.github.beaconcalculator.BeaconCalculator"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
